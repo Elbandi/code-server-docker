@@ -14,6 +14,5 @@ RUN set -eux; \
 # smoke test
 	docker-compose -v
 
-RUN groupmod -g 118 docker
-
-RUN addgroup abc docker
+# add local files
+COPY /root /
