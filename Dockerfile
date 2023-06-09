@@ -15,3 +15,5 @@ RUN set -eux; \
 	docker-compose -v
 
 RUN groupmod -g 118 docker
+
+RUN addgroup abc docker
