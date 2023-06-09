@@ -13,3 +13,5 @@ RUN set -eux; \
 	rm -rf /var/lib/apt/lists/*; \
 # smoke test
 	docker-compose -v
+
+RUN groupmod -g 118 docker
