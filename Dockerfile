@@ -1,5 +1,5 @@
 # Base image, greatful to linuxserver
-FROM ghcr.io/linuxserver/code-server:4.13.0
+FROM ghcr.io/linuxserver/code-server:4.20.0
 
 RUN set -eux; \
 # installation
